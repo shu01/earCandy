@@ -48,6 +48,14 @@ body{
     top: 25vh;
 }
 
+#spotify{
+	position: absolute;
+	width: 150px; 
+	height: 50px;
+	left: 0vw;
+    bottom: 20vh;
+}
+
 #cdTextVis{
 	background: blue;
 	z-index: -2;
@@ -203,5 +211,332 @@ body{
     opacity: 1;
 }
 
+@media only screen and (max-height: 550px) {
+    #vmtop{
+    	height: 170vh;
+		background: red;
+		display:block;
 
+	}
+	#vmbot{
+		width: 100vw;
+		height: 7vh;
+		background: blue;
+		display:block;
+	}
+
+	#vmside{
+		width: 15vw;
+		height: 190vh;
+		right: 0vw;
+	    top: 0vh;
+		position: absolute;
+		background: black;
+	}
+
+	.cd{
+		width: 60vh;
+		height: 60vh;
+		background: yellow;
+		position: absolute;
+		overflow: hidden;
+	}
+
+	#cd1{
+    	left: 5vw;
+    	top: 15vh;
+	}
+	#cd2{
+    	left: 32vw;
+    	top: 15vh;
+	}
+	#cd3{
+    	left: 59vw;
+    	top: 15vh;
+	}
+	#cd4{
+    	left: 5vw;
+    	top: 90vh;
+	}
+	#cd5{
+    	left: 32vw;
+    	top: 90vh;
+	}
+	#cd6{
+    	left: 59vw;
+    	top: 90vh;
+	}
+
+	#ejectButton{
+		width: 15vw;
+		height: 10vh;
+		background: yellow;
+		position: relative;
+		left: 80vw;
+    	top: 5vh;
+	}
+	#cdDisplay{
+		width: 100vw;
+		height: 90vh;
+		z-index: -2;
+	}
+	#selectedCd1{
+		width: 75vh;
+		height: 75vh;
+		background: red;
+		z-index: -1;
+		position: fixed;
+		left: 20vw;
+    	top: 15vh;
+	}
+	#selectedCd2{
+		width: 75vh;
+		height: 75vh;
+		background: orange;
+		z-index: -1;
+		position: fixed;
+		left: 20vw;
+	    top: 15vh;
+	}
+	#selectedCd3{
+		width: 75vh;
+		height: 75vh;
+		background: yellow;
+		z-index: -1;
+		position: fixed;
+		left: 20vw;
+	    top: 15vh;
+	}
+	#selectedCd4{
+		width: 75vh;
+		height: 75vh;
+		background: green;
+		z-index: -1;
+		position: fixed;
+		left: 20vw;
+	    top: 15vh;
+	}
+	#selectedCd5{
+		width: 75vh;
+		height: 75vh;
+		background: blue;
+		z-index: -1;
+		position: fixed;
+		left: 20vw;
+	    top: 15vh;
+	}
+	#selectedCd6{
+		width: 75vh;
+		height: 75vh;
+		background: purple;
+		z-index: -1;
+		position: fixed;
+		left: 20vw;
+	    top: 15vh;
+	}
+	.cdText{
+	width: 30vw; 
+	height: 60vh;
+	z-index: -2;
+	position: fixed;
+	left: 160vw;
+    top: 25vh;
+	}
+	#cdTextVis{
+		background: blue;
+		z-index: -2;
+		display: block;
+		left: 50vw;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+	.cdText{
+		width: 60vw; 
+		height: 20vh;
+		z-index: -2;
+		position: fixed;
+		left: 160vw;
+    	top: 80vw;
+	}
+	#cdTextVis{
+		background: blue;
+		z-index: -2;
+		display: block;
+		left: 19vw;
+	}
+	#spotify{
+		position: absolute;
+		width: 150px; 
+		height: 50px;
+		left: 0vw;
+   		bottom: 5vh;
+	}
+}
+
+@media only screen and (max-width: 600px)  {
+	.cdText{
+		width: 60vw; 
+		height: 20vh;
+		z-index: -2;
+		position: fixed;
+		left: 160vw;
+    	top: 85vw;
+	}
+	#cdTextVis{
+		background: blue;
+		z-index: -2;
+		display: block;
+		left: 19vw;
+	}
+	#spotify{
+		position: absolute;
+		width: 150px; 
+		height: 50px;
+		left: 0vw;
+   		bottom: 5vh;
+	}
+
+	#ejectButton{
+		width: 25vw;
+		height: 7vh;
+		background: yellow;
+		position: relative;
+		left: 70vw;
+    	top: 4vh;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+    #vmtop{
+    	height: 375vw;
+		background: red;
+		display:block;
+
+	}
+	#vmbot{
+		width: 100vw;
+		height: 7vh;
+		background: blue;
+		display:block;
+	}
+
+	#vmside{
+		width: 30vw;
+		height: 380vw;
+		right: 0vw;
+	    top: 0vh;
+		position: absolute;
+		background: black;
+	}
+
+	.cd{
+		width: 50vw;
+		height: 50vw;
+		background: yellow;
+		position: absolute;
+		overflow: hidden;
+	}
+
+	#cd1{
+    	left: 10vw;
+    	top: 15vw;
+	}
+	#cd2{
+    	left: 10vw;
+    	top: 75vw;
+	}
+	#cd3{
+    	left: 10vw;
+    	top: 135vw;
+	}
+	#cd4{
+    	left: 10vw;
+    	top: 195vw;
+	}
+	#cd5{
+    	left: 10vw;
+    	top: 255vw;
+	}
+	#cd6{
+    	left: 10vw;
+    	top: 315vw;
+	}
+
+	#ejectButton{
+		width: 15vw;
+		height: 10vh;
+		background: yellow;
+		position: relative;
+		left: 80vw;
+    	top: 5vh;
+	}
+	#cdDisplay{
+		width: 100vw;
+		height: 90vh;
+		z-index: -2;
+	}
+	#selectedCd1{
+		width: 60vw;
+		height: 60vw;
+		background: red;
+		z-index: -1;
+		position: fixed;
+		left: 19vw;
+    	top: 15vh;
+	}
+	#selectedCd2{
+		width: 60vw;
+		height: 60vw;
+		background: orange;
+		z-index: -1;
+		position: fixed;
+		left: 19vw;
+	    top: 15vh;
+	}
+	#selectedCd3{
+		width: 60vw;
+		height: 60vw;
+		background: yellow;
+		z-index: -1;
+		position: fixed;
+		left: 19vw;
+	    top: 15vh;
+	}
+	#selectedCd4{
+		width: 60vw;
+		height: 60vw;
+		background: green;
+		z-index: -1;
+		position: fixed;
+		left: 19vw;
+	    top: 15vh;
+	}
+	#selectedCd5{
+		width: 60vw;
+		height: 60vw;
+		background: blue;
+		z-index: -1;
+		position: fixed;
+		left: 19vw;
+	    top: 15vh;
+	}
+	#selectedCd6{
+		width: 60vw;
+		height: 60vw;
+		background: purple;
+		z-index: -1;
+		position: fixed;
+		left: 19vw;
+	    top: 15vh;
+	}
+	#ejectButton{
+		width: 20vw;
+		height: 7vh;
+		background: yellow;
+		position: relative;
+		left: 70vw;
+    	top: 4vh;
+	}
+}
 
