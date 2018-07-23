@@ -41,7 +41,7 @@ body{
 
 .cdText{
 	width: 40vh; 
-	height: 30vh;
+	height: 60vh;
 	z-index: -2;
 	position: fixed;
 	left: 160vw;
@@ -147,6 +147,14 @@ body{
 }
 #hidden{
 	display: hidden;
+}
+.decorVis{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background: yellow;
+	left: 0;
+    bottom: 0vh;
 }
 
 

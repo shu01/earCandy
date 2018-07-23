@@ -32,6 +32,14 @@ window.onload=function(){
 		console.log("work");
 	}
 
+	$(window).scroll(function() {
+   		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+       	document.getElementById("decor").setAttribute("class", "decorVis");
+   		}else{
+   			document.getElementById("decor").classList.remove("decorVis");
+   		}
+	});
+
 	// cd selection 
 	document.getElementById("cd1").addEventListener("click", cd1);
 	function cd1() {
