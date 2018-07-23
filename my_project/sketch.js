@@ -13,13 +13,14 @@ window.onload=function(){
 
     	var objDiv = document.getElementById("cdDisplay");
 			objDiv.scrollTop = objDiv.scrollHeight;
+		document.getElementById("decor").className = "";
 	}
 
 	function scrollBot(){
 		$("html, body").animate({ scrollTop: $(document).height() }, 3000);
 	}
 
-	function cdSelected(cdNum, selCdNum){
+	function cdSelected(cdNum, selCdNum, cdDecorNum){
 		document.getElementById(cdNum).classList.add("selected");
 		list = document.getElementsByClassName("selectedCd");
 		for (index = 0; index < list.length; ++index) {
@@ -29,57 +30,52 @@ window.onload=function(){
 		for (index = 0; index < tlist.length; ++index) {
     		tlist[index].setAttribute("id", "cdTextVis");
 		}
-		console.log("work");
+       	document.getElementById("decor").setAttribute("class",cdDecorNum);
+       	$(window).on("scroll", function() {
+  		$("." + cdDecorNum).css("opacity", (window.innerHeight + ($(window).scrollTop()* 100)) / ($(document).height()*50));
+		});
 	}
-
-	$(window).scroll(function() {
-   		if($(window).scrollTop() + $(window).height() == $(document).height()) {
-       	document.getElementById("decor").setAttribute("class", "decorVis");
-   		}else{
-   			document.getElementById("decor").classList.remove("decorVis");
-   		}
-	});
 
 	// cd selection 
 	document.getElementById("cd1").addEventListener("click", cd1);
 	function cd1() {
 		clearSelection();
-		cdSelected("cd1","selectedCd1");
+		cdSelected("cd1","selectedCd1","decor1");
 		scrollBot()
 	}
 
 	document.getElementById("cd2").addEventListener("click", cd2);
 	function cd2() {
 		clearSelection();
-		cdSelected("cd2","selectedCd2");
+		cdSelected("cd2","selectedCd2","decor2");
 		scrollBot()
 	}
 
 	document.getElementById("cd3").addEventListener("click", cd3);
 	function cd3() {
 		clearSelection();
-		cdSelected("cd3","selectedCd3");
+		cdSelected("cd3","selectedCd3","decor3");
 		scrollBot()
 	}
 
 	document.getElementById("cd4").addEventListener("click", cd4);
 	function cd4() {
 		clearSelection();
-		cdSelected("cd4","selectedCd4");
+		cdSelected("cd4","selectedCd4","decor4");
 		scrollBot()	
 	}
 
 	document.getElementById("cd5").addEventListener("click", cd5);
 	function cd5() {
 		clearSelection();
-		cdSelected("cd5","selectedCd5");
+		cdSelected("cd5","selectedCd5","decor5");
 		scrollBot()
 	}
 
 	document.getElementById("cd6").addEventListener("click", cd6);
 	function cd6() {
 		clearSelection();
-		cdSelected("cd6","selectedCd6");
+		cdSelected("cd6","selectedCd6","decor6");
 		scrollBot()
 	}
 

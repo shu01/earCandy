@@ -148,13 +148,59 @@ body{
 #hidden{
 	display: hidden;
 }
-.decorVis{
+.decor1{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background: red;
+	left: 0;
+    bottom: 0vh;
+    opacity: 1;
+}
+.decor2{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background: orange;
+	left: 0;
+    bottom: 0vh;
+    opacity: 1;
+}
+.decor3{
 	position: fixed;
 	width: 100vw;
 	height: 20vh;
 	background: yellow;
 	left: 0;
     bottom: 0vh;
+    opacity: 1;
+}
+.decor4{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background: green;
+	left: 0;
+    bottom: 0vh;
+    opacity: 1;
+}
+.decor5{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background: blue;
+	left: 0;
+    bottom: 0vh;
+    opacity: 1;
+}
+.decor6{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	background: purple;
+	left: 0;
+    bottom: 0vh;
+    opacity: 1;
 }
 
 
