@@ -4,9 +4,15 @@ window.onload=function(){
 		list = document.getElementsByClassName("selected");
 		for (index = 0; index < list.length; ++index) {
     		list[index].classList.remove("selected");
+    	}
+
+    	tlist = document.getElementsByClassName("cdText");
+		for (index = 0; index < tlist.length; ++index) {
+    		tlist[index].setAttribute("id", "hidden");
+		}
+
     	var objDiv = document.getElementById("cdDisplay");
 			objDiv.scrollTop = objDiv.scrollHeight;
-    	}
 	}
 
 	function scrollBot(){
@@ -18,6 +24,10 @@ window.onload=function(){
 		list = document.getElementsByClassName("selectedCd");
 		for (index = 0; index < list.length; ++index) {
     		list[index].setAttribute("id", selCdNum);
+		}
+		tlist = document.getElementsByClassName("cdText");
+		for (index = 0; index < tlist.length; ++index) {
+    		tlist[index].setAttribute("id", "cdTextVis");
 		}
 		console.log("work");
 	}

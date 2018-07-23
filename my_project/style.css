@@ -15,6 +15,16 @@ body{
 	background: blue;
 	display:block;
 }
+
+#vmside{
+	width: 15vw;
+	height: 90vh;
+	right: 0vw;
+    top: 0vh;
+	position: absolute;
+	background: black;
+}
+
 #ejectButton{
 	width: 15vw;
 	height: 7vh;
@@ -28,6 +38,23 @@ body{
 	height: 90vh;
 	z-index: -2;
 }
+
+.cdText{
+	width: 40vh; 
+	height: 30vh;
+	z-index: -2;
+	position: fixed;
+	left: 160vw;
+    top: 25vh;
+}
+
+#cdTextVis{
+	background: blue;
+	z-index: -2;
+	display: block;
+	left: 60vw;
+}
+
 .cd{
 	width: 20vh;
 	height: 20vh;
