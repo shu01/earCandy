@@ -32,15 +32,15 @@ body{
 }
 
 #shelf1{
-	width: 100vw;
+	width: 90vw;
 	height: 8vh;
-	margin-top: 21.5vh;
+	margin-top: 23vh;
 	margin-left: 5vw;
    	background: blue;
    	pointer-events: none
 }
 #shelf2{
-	width: 100vw;
+	width: 90vw;
 	height: 8vh;
 	margin-top: 32vh;
 	margin-left: 5vw;
@@ -116,57 +116,69 @@ body{
     box-shadow: 0 0 30px white;
 }
 #selectedCd1{
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 35vw;
 	height: 35vw;
 	background: red;
 	z-index: -1;
 	position: fixed;
-	left: 15vw;
+	right: 50vw;
     top: 25vh;
 }
 #selectedCd2{
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vh;
 	height: 60vh;
 	background: orange;
 	z-index: -1;
 	position: fixed;
-	left: 15vw;
+	right: 50vw;
     top: 25vh;
 }
 #selectedCd3{
-	width: 60vh;
-	height: 60vh;
+	max-width: 60vh;
+	max-height: 60vh;
+	width: 60vw;
+	height: 60vw;
 	background: yellow;
 	z-index: -1;
 	position: fixed;
-	left: 15vw;
+	right: 50vw;
     top: 25vh;
 }
 #selectedCd4{
-	width: 60vh;
-	height: 60vh;
+	max-width: 60vh;
+	max-height: 60vh;
+	width: 60vw;
+	height: 60vw;
 	background: green;
 	z-index: -1;
 	position: fixed;
-	left: 15vw;
+	right: 50vw;
     top: 25vh;
 }
 #selectedCd5{
-	width: 60vh;
-	height: 60vh;
+	max-width: 60vh;
+	max-height: 60vh;
+	width: 60vw;
+	height: 60vw;
 	background: blue;
 	z-index: -1;
 	position: fixed;
-	left: 15vw;
+	right: 50vw;
     top: 25vh;
 }
 #selectedCd6{
-	width: 60vh;
-	height: 60vh;
+	max-width: 60vh;
+	max-height: 60vh;
+	width: 60vw;
+	height: 60vw;
 	background: purple;
 	z-index: -1;
 	position: fixed;
-	left: 15vw;
+	right: 50vw;
     top: 25vh;
 }
 #cd1{
@@ -251,19 +263,20 @@ body{
     opacity: 1;
 }
 
-@media only screen and (max-height: 550px) {
+
+@media only screen and (max-height: 400px) and (min-width: 850px){
 	#shelf1{
-		width: 100vw;
-		height: 8vh;
-		margin-top: 65vh;
+		width: 98vw;
+		height: 10vh;
+		margin-top: 63vh;
 		margin-left: 0;
 	   	background: blue;
 	   	pointer-events: none
 	}
 	#shelf2{
-		width: 100vw;
-		height: 8vh;
-		margin-top: 70vh;
+		width: 98vw;
+		height: 10vh;
+		margin-top: 66vh;
 		margin-left: 0;
 	   	background: blue;
 	   	pointer-events: none
@@ -473,6 +486,11 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
+	#borderL{
+		width: 5vw;
+		height: 375vw;
+	}
+
     #vmtop{
     	height: 375vw;
 		background: red;
@@ -481,43 +499,43 @@ body{
 
 	#shelf1{
 		width: 100vw;
-		height: 8vw;
+		height: 9vw;
 		margin-top: 52vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf2{
 		width: 100vw;
-		height: 8vw;
-		margin-top: 52vw;
+		height: 9vw;
+		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf3{
 		width: 100vw;
-		height: 8vw;
-		margin-top: 52vw;
+		height: 9vw;
+		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf4{
 		width: 100vw;
-		height: 8vw;
-		margin-top: 52vw;
+		height: 9vw;
+		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf5{
 		width: 100vw;
-		height: 8vw;
-		margin-top: 52vw;
+		height: 9vw;
+		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf6{
 		width: 100vw;
-		height: 8vw;
-		margin-top: 52vw;
+		height: 9vw;
+		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
