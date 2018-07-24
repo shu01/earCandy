@@ -128,8 +128,8 @@ body{
     top: 25vh;
 }
 #selectedCd2{
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 40vh;
+	max-height: 40vh;
 	width: 60vh;
 	height: 60vh;
 	background: orange;
@@ -139,8 +139,8 @@ body{
     top: 25vh;
 }
 #selectedCd3{
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 40vh;
+	max-height: 40vh;
 	width: 60vw;
 	height: 60vw;
 	background: yellow;
@@ -150,8 +150,8 @@ body{
     top: 25vh;
 }
 #selectedCd4{
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 40vh;
+	max-height: 40vh;
 	width: 60vw;
 	height: 60vw;
 	background: green;
@@ -161,8 +161,8 @@ body{
     top: 25vh;
 }
 #selectedCd5{
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 40vh;
+	max-height: 40vh;
 	width: 60vw;
 	height: 60vw;
 	background: blue;
@@ -172,8 +172,8 @@ body{
     top: 25vh;
 }
 #selectedCd6{
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 40vh;
+	max-height: 40vh;
 	width: 60vw;
 	height: 60vw;
 	background: purple;
@@ -518,8 +518,8 @@ body{
 		display: block;
 		left: 19vw;
 		height: 20vh;
-		width: 50vw;
-		top: 75vw;
+		width: 60vw;
+		top: 53vh;
 	}
 
 	#borderL{
@@ -639,6 +639,8 @@ body{
 		z-index: -2;
 	}
 	#selectedCd1{
+		max-width: 60vh;
+		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
 		background: red;
@@ -648,6 +650,8 @@ body{
     	top: 15vh;
 	}
 	#selectedCd2{
+		max-width: 60vh;
+		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
 		background: orange;
@@ -657,6 +661,8 @@ body{
 	    top: 15vh;
 	}
 	#selectedCd3{
+		max-width: 60vh;
+		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
 		background: yellow;
@@ -666,6 +672,8 @@ body{
 	    top: 15vh;
 	}
 	#selectedCd4{
+		max-width: 60vh;
+		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
 		background: green;
@@ -675,6 +683,8 @@ body{
 	    top: 15vh;
 	}
 	#selectedCd5{
+		max-width: 60vh;
+		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
 		background: blue;
@@ -684,6 +694,8 @@ body{
 	    top: 15vh;
 	}
 	#selectedCd6{
+		max-width: 60vh;
+		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
 		background: purple;
