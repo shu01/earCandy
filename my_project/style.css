@@ -1,5 +1,23 @@
 body{
 	background: green;
+	padding: 0;
+	margin: 0;
+}
+#borderL{
+	position: absolute;
+	width: 5vw;
+	height: 85vh;
+	left: 0;
+    top: 0;
+    background: yellow;
+}
+
+#borderT{
+	width: 100vw;
+	height: 7vh;
+	left: 0;
+    top: 0;
+    background: yellow;
 }
 
 #vmtop{
@@ -7,12 +25,33 @@ body{
 	height: 85vh;
 	background: red;
 	display:block;
-
+	background: url('vmtop.png') no-repeat center;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
 }
+
+#shelf1{
+	width: 100vw;
+	height: 8vh;
+	margin-top: 21.5vh;
+	margin-left: 5vw;
+   	background: blue;
+   	pointer-events: none
+}
+#shelf2{
+	width: 100vw;
+	height: 8vh;
+	margin-top: 32vh;
+	margin-left: 5vw;
+   	background: blue;
+   	pointer-events: none
+}
+
 #vmbot{
 	width: 100vw;
 	height: 7vh;
-	background: blue;
+	background-image: url('EvAJ.gif');
 	display:block;
 }
 
@@ -40,7 +79,7 @@ body{
 }
 
 .cdText{
-	width: 40vh; 
+	width: 30vw; 
 	height: 60vh;
 	z-index: -2;
 	position: fixed;
@@ -60,7 +99,7 @@ body{
 	background: blue;
 	z-index: -2;
 	display: block;
-	left: 60vw;
+	left: 55vw;
 }
 
 .cd{
@@ -69,6 +108,7 @@ body{
 	background: yellow;
 	position: absolute;
 	overflow: hidden;
+	z-index: 8;
 }
 .selected{
 	outline: none;
@@ -76,8 +116,8 @@ body{
     box-shadow: 0 0 30px white;
 }
 #selectedCd1{
-	width: 60vh;
-	height: 60vh;
+	width: 35vw;
+	height: 35vw;
 	background: red;
 	z-index: -1;
 	position: fixed;
@@ -212,6 +252,31 @@ body{
 }
 
 @media only screen and (max-height: 550px) {
+	#shelf1{
+		width: 100vw;
+		height: 8vh;
+		margin-top: 65vh;
+		margin-left: 0;
+	   	background: blue;
+	   	pointer-events: none
+	}
+	#shelf2{
+		width: 100vw;
+		height: 8vh;
+		margin-top: 70vh;
+		margin-left: 0;
+	   	background: blue;
+	   	pointer-events: none
+	}
+	#borderL{
+		position: absolute;
+		width: 2vw;
+		height: 175vh;
+		left: 0;
+    	top: 0;
+    	background: yellow;
+	}
+
     #vmtop{
     	height: 170vh;
 		background: red;
@@ -412,8 +477,51 @@ body{
     	height: 375vw;
 		background: red;
 		display:block;
-
 	}
+
+	#shelf1{
+		width: 100vw;
+		height: 8vw;
+		margin-top: 52vw;
+		margin-left: 5vw;
+    	background: blue;
+	}
+	#shelf2{
+		width: 100vw;
+		height: 8vw;
+		margin-top: 52vw;
+		margin-left: 5vw;
+    	background: blue;
+	}
+	#shelf3{
+		width: 100vw;
+		height: 8vw;
+		margin-top: 52vw;
+		margin-left: 5vw;
+    	background: blue;
+	}
+	#shelf4{
+		width: 100vw;
+		height: 8vw;
+		margin-top: 52vw;
+		margin-left: 5vw;
+    	background: blue;
+	}
+	#shelf5{
+		width: 100vw;
+		height: 8vw;
+		margin-top: 52vw;
+		margin-left: 5vw;
+    	background: blue;
+	}
+	#shelf6{
+		width: 100vw;
+		height: 8vw;
+		margin-top: 52vw;
+		margin-left: 5vw;
+    	background: blue;
+	}
+
 	#vmbot{
 		width: 100vw;
 		height: 7vh;

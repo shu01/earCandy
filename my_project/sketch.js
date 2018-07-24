@@ -1,5 +1,4 @@
 window.onload=function(){
-
 	function clearSelection(){
 		list = document.getElementsByClassName("selected");
 		for (index = 0; index < list.length; ++index) {
