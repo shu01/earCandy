@@ -116,8 +116,8 @@ body{
     box-shadow: 0 0 30px white;
 }
 #selectedCd1{
-	max-width: 60vh;
-	max-height: 60vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 35vw;
 	height: 35vw;
 	background: red;
@@ -127,8 +127,8 @@ body{
     top: 25vh;
 }
 #selectedCd2{
-	max-width: 60vh;
-	max-height: 60vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vh;
 	height: 60vh;
 	background: orange;
@@ -138,8 +138,8 @@ body{
     top: 25vh;
 }
 #selectedCd3{
-	max-width: 60vh;
-	max-height: 60vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: yellow;
@@ -149,8 +149,8 @@ body{
     top: 25vh;
 }
 #selectedCd4{
-	max-width: 60vh;
-	max-height: 60vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: green;
@@ -160,8 +160,8 @@ body{
     top: 25vh;
 }
 #selectedCd5{
-	max-width: 60vh;
-	max-height: 60vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: blue;
@@ -171,14 +171,14 @@ body{
     top: 25vh;
 }
 #selectedCd6{
-	max-width: 60vh;
-	max-height: 60vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: purple;
 	z-index: -1;
 	position: fixed;
-	right: 50vw;
+	left: 10vw;
     top: 25vh;
 }
 #cd1{
@@ -413,12 +413,12 @@ body{
 	    top: 15vh;
 	}
 	.cdText{
-	width: 30vw; 
-	height: 60vh;
-	z-index: -2;
-	position: fixed;
-	left: 160vw;
-    top: 25vh;
+		width: 30vw; 
+		height: 60vh;
+		z-index: -2;
+		position: fixed;
+		left: 160vw;
+    	top: 25vh;
 	}
 	#cdTextVis{
 		background: blue;
@@ -452,17 +452,17 @@ body{
 	}
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 500px)  {
 	.cdText{
-		width: 60vw; 
+		width: 60vh; 
 		height: 20vh;
 		z-index: -2;
 		position: fixed;
 		left: 160vw;
-    	top: 85vw;
+    	top: 55vh;
 	}
 	#cdTextVis{
-		background: blue;
+		background: red;
 		z-index: -2;
 		display: block;
 		left: 19vw;
@@ -472,7 +472,7 @@ body{
 		width: 150px; 
 		height: 50px;
 		left: 0vw;
-   		bottom: 5vh;
+   		bottom: 0;
 	}
 
 	#ejectButton{
@@ -486,6 +486,17 @@ body{
 }
 
 @media only screen and (max-width: 800px) {
+
+	#cdTextVis{
+		background: pink;
+		z-index: -2;
+		display: block;
+		left: 19vw;
+		height: 20vh;
+		width: 50vw;
+		top: 75vw;
+	}
+
 	#borderL{
 		width: 5vw;
 		height: 375vw;
@@ -498,42 +509,42 @@ body{
 	}
 
 	#shelf1{
-		width: 100vw;
+		width: 90vw;
 		height: 9vw;
 		margin-top: 52vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf2{
-		width: 100vw;
+		width: 90vw;
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf3{
-		width: 100vw;
+		width: 90vw;
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf4{
-		width: 100vw;
+		width: 90vw;
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf5{
-		width: 100vw;
+		width: 90vw;
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
 	}
 	#shelf6{
-		width: 100vw;
+		width: 90vw;
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
