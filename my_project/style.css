@@ -23,7 +23,6 @@ body{
 #vmtop{
 	width: 100vw;
 	height: 85vh;
-	background: red;
 	display:block;
 	background: url('vmtop.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
@@ -121,7 +120,10 @@ body{
 	max-height: 40vw;
 	width: 35vw;
 	height: 35vw;
-	background: red;
+	background: url('cd1.png') no-repeat center;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
 	z-index: -1;
 	position: fixed;
 	right: 50vw;
@@ -183,6 +185,10 @@ body{
     top: 25vh;
 }
 #cd1{
+	background: url('cd1.png') no-repeat center;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
     left: 10vw;
     top: 15vh;
 }
@@ -293,7 +299,6 @@ body{
 
     #vmtop{
     	height: 170vh;
-		background: red;
 		display:block;
 
 	}
@@ -529,7 +534,6 @@ body{
 
     #vmtop{
     	height: 375vw;
-		background: red;
 		display:block;
 	}
 
