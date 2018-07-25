@@ -1,7 +1,20 @@
 body{
 	background: green;
+	background: url('cd1bg.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+	background-position: right bottom;
 	padding: 0;
 	margin: 0;
+}
+@font-face {
+    font-family: '04b30';
+    src: url('04b_30__-webfont.woff2') format('woff2'),
+         url('04b_30__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 #borderL{
 	position: absolute;
@@ -36,7 +49,7 @@ body{
 	margin-top: 23vh;
 	margin-left: 5vw;
    	background: blue;
-   	pointer-events: none
+   	pointer-events: none;
 }
 #shelf2{
 	width: 90vw;
@@ -44,7 +57,7 @@ body{
 	margin-top: 32vh;
 	margin-left: 5vw;
    	background: blue;
-   	pointer-events: none
+   	pointer-events: none;
 }
 
 #vmbot{
@@ -83,7 +96,7 @@ body{
 	z-index: -2;
 	position: fixed;
 	left: 160vw;
-    top: 25vh;
+    top: 30vh;
 }
 
 #spotify{
@@ -96,7 +109,11 @@ body{
 
 
 #cdTextVis{
-	background: blue;
+	outline: none;
+    border-color: white;
+	font-family: '04b30';
+	font-size: 30px;
+	color: white;
 	z-index: -2;
 	display: block;
 	left: 55vw;
@@ -116,6 +133,9 @@ body{
     box-shadow: 0 0 30px white;
 }
 #selectedCd1{
+	outline: none;
+    border-color: white;
+    box-shadow: 0 0 50px white;
 	max-width: 40vw;
 	max-height: 40vw;
 	width: 35vw;
@@ -216,15 +236,21 @@ body{
 	display: hidden;
 }
 .decor1{
+	pointer-events: none;
 	position: fixed;
 	width: 100vw;
-	height: 20vh;
-	background: red;
+	height: 90vh;
+	background: url('cd1decor.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+	background-position: right bottom;
 	left: 0;
     bottom: 0vh;
     opacity: 1;
 }
 .decor2{
+	pointer-events: none;
 	position: fixed;
 	width: 100vw;
 	height: 20vh;
@@ -234,6 +260,7 @@ body{
     opacity: 1;
 }
 .decor3{
+	pointer-events: none;
 	position: fixed;
 	width: 100vw;
 	height: 20vh;
@@ -252,6 +279,7 @@ body{
     opacity: 1;
 }
 .decor5{
+	pointer-events: none;
 	position: fixed;
 	width: 100vw;
 	height: 20vh;
@@ -261,6 +289,7 @@ body{
     opacity: 1;
 }
 .decor6{
+	pointer-events: none;
 	position: fixed;
 	width: 100vw;
 	height: 20vh;
