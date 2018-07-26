@@ -1,12 +1,29 @@
-body{
-	background: green;
-	background: url('cd1bg.png') no-repeat;
+#body{
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
 	background-position: right bottom;
 	padding: 0;
 	margin: 0;
+
+}
+.bgd{
+	background: url('bg.png') no-repeat;
+}
+.bg1{
+	background: url('cd1bg.png') no-repeat;
+}
+.bg2{
+	background: url('bg.png') no-repeat;
+}
+.bg3{
+	background: url('bg.png') no-repeat;
+}
+.bg4{
+	background: url('bg.png') no-repeat;
+}
+.bg5{
+	background: url('bg.png') no-repeat;
 }
 @font-face {
     font-family: '04b30';
@@ -23,6 +40,11 @@ body{
 	left: 0;
     top: 0;
     background: yellow;
+    background: url('borderL.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-position: right top;
 }
 
 #borderT{
@@ -31,6 +53,11 @@ body{
 	left: 0;
     top: 0;
     background: yellow;
+     background: url('borderT.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-position: right top;
 }
 
 #vmtop{
@@ -48,7 +75,11 @@ body{
 	height: 8vh;
 	margin-top: 23vh;
 	margin-left: 5vw;
-   	background: blue;
+   	background: url('shelf.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-position: right bottom;
    	pointer-events: none;
 }
 #shelf2{
@@ -56,14 +87,22 @@ body{
 	height: 8vh;
 	margin-top: 32vh;
 	margin-left: 5vw;
-   	background: blue;
+   	background: url('shelf.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-position: right bottom;
    	pointer-events: none;
 }
 
 #vmbot{
 	width: 100vw;
 	height: 7vh;
-	background-image: url('EvAJ.gif');
+	background: url('borderT.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-position: right top;
 	display:block;
 }
 
@@ -73,7 +112,11 @@ body{
 	right: 0vw;
     top: 0vh;
 	position: absolute;
-	background: black;
+	background: url('vms.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-position: left top;
 }
 
 #ejectButton{
@@ -218,6 +261,10 @@ body{
     top: 15vh;
 }
 #cd2{
+	background: url('cd2.png') no-repeat center;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
     left: 35vw;
     top: 15vh;
 }
@@ -575,16 +622,25 @@ body{
 	#shelf1{
 		width: 90vw;
 		height: 9vw;
-		margin-top: 52vw;
+		margin-top: 49vw;
 		margin-left: 5vw;
     	background: blue;
+    	background: url('shelf.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+    	background-position: right bottom;
 	}
 	#shelf2{
 		width: 90vw;
 		height: 9vw;
-		margin-top: 51vw;
+		margin-top: 50vw;
 		margin-left: 5vw;
-    	background: blue;
+    	background: url('shelf.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+    	background-position: right bottom;
 	}
 	#shelf3{
 		width: 90vw;
@@ -592,6 +648,11 @@ body{
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
+    	background: url('shelf.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+    	background-position: right bottom;
 	}
 	#shelf4{
 		width: 90vw;
@@ -599,6 +660,11 @@ body{
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
+    	background: url('shelf.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+    	background-position: right bottom;
 	}
 	#shelf5{
 		width: 90vw;
@@ -606,6 +672,11 @@ body{
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
+    	background: url('shelf.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+    	background-position: right bottom;
 	}
 	#shelf6{
 		width: 90vw;
@@ -613,6 +684,11 @@ body{
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
+    	background: url('shelf.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+    	background-position: right bottom;
 	}
 
 	#vmbot{
@@ -628,7 +704,6 @@ body{
 		right: 0vw;
 	    top: 0vh;
 		position: absolute;
-		background: black;
 	}
 
 	.cd{

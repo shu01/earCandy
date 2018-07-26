@@ -1,5 +1,7 @@
 window.onload=function(){
+	document.getElementById("body").setAttribute("class", "bgd");
 	function clearSelection(){
+		document.getElementById("body").setAttribute("class", "bgd");
 		list = document.getElementsByClassName("selected");
 		for (index = 0; index < list.length; ++index) {
     		list[index].classList.remove("selected");
@@ -19,7 +21,8 @@ window.onload=function(){
 		$("html, body").animate({ scrollTop: $(document).height() }, 3000);
 	}
 
-	function cdSelected(cdNum, selCdNum, cdDecorNum){
+	function cdSelected(cdNum, selCdNum, cdDecorNum, bgnum){
+		document.getElementById("body").setAttribute("class", bgnum);
 		document.getElementById(cdNum).classList.add("selected");
 		list = document.getElementsByClassName("selectedCd");
 		for (index = 0; index < list.length; ++index) {
@@ -39,7 +42,8 @@ window.onload=function(){
 	document.getElementById("cd1").addEventListener("click", cd1);
 	function cd1() {
 		clearSelection();
-		cdSelected("cd1","selectedCd1","decor1");
+		document.getElementById("body").setAttribute("class", "bg1");
+		cdSelected("cd1","selectedCd1","decor1","bg1");
 		scrollBot()
 	}
 
