@@ -34,7 +34,7 @@ window.onload=function(){
 		}
        	document.getElementById("decor").setAttribute("class",cdDecorNum);
        	$(window).on("scroll", function() {
-  		$("." + cdDecorNum).css("opacity", (window.innerHeight + ($(window).scrollTop()* 100)) / ($(document).height()*50));
+  		$("." + cdDecorNum).css("opacity", (window.innerHeight + ($(window).scrollTop()* 100)) / ($(document).height()*40));
 		});
 	}
 
@@ -42,7 +42,6 @@ window.onload=function(){
 	document.getElementById("cd1").addEventListener("click", cd1);
 	function cd1() {
 		clearSelection();
-		document.getElementById("body").setAttribute("class", "bg1");
 		cdSelected("cd1","selectedCd1","decor1","bg1");
 		scrollBot()
 	}
@@ -57,7 +56,7 @@ window.onload=function(){
 	document.getElementById("cd3").addEventListener("click", cd3);
 	function cd3() {
 		clearSelection();
-		cdSelected("cd3","selectedCd3","decor3");
+		cdSelected("cd3","selectedCd3","decor3","bg3");
 		scrollBot()
 	}
 

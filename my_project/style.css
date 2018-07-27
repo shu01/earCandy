@@ -17,7 +17,7 @@
 	background: url('imgs/cd2bg.png') no-repeat;
 }
 .bg3{
-	background: url('imgs/bg.png') no-repeat;
+	background: url('imgs/cd3bg.png') no-repeat;
 }
 .bg4{
 	background: url('imgs/bg.png') no-repeat;
@@ -186,8 +186,8 @@
      filter: drop-shadow(0px 0px 12px white);
 	max-width: 40vw;
 	max-height: 40vw;
-	width: 35vw;
-	height: 35vw;
+	width: 60vw;
+	height: 60vw;
 	background: url('imgs/cd1.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
@@ -203,8 +203,8 @@
      filter: drop-shadow(0px 0px 12px white);
 	max-width: 40vw;
 	max-height: 40vw;
-	width: 60vh;
-	height: 60vh;
+	width: 60vw;
+	height: 60vw;
 	background: url('imgs/cd2.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
@@ -215,23 +215,28 @@
     top: 25vh;
 }
 #selectedCd3{
+	outline: white;
+    -webkit-filter: drop-shadow(0px 0px 12px white);
+     filter: drop-shadow(0px 0px 12px white);
 	background: url('imgs/cd3.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-	max-width: 40vh;
-	max-height: 40vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
-	background: yellow;
 	z-index: -1;
 	position: fixed;
 	right: 50vw;
     top: 25vh;
 }
 #selectedCd4{
-	max-width: 40vh;
-	max-height: 40vh;
+	outline: white;
+    -webkit-filter: drop-shadow(0px 0px 12px white);
+     filter: drop-shadow(0px 0px 12px white);
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: green;
@@ -241,8 +246,11 @@
     top: 25vh;
 }
 #selectedCd5{
-	max-width: 40vh;
-	max-height: 40vh;
+	outline: white;
+    -webkit-filter: drop-shadow(0px 0px 12px white);
+     filter: drop-shadow(0px 0px 12px white);
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: blue;
@@ -252,8 +260,11 @@
     top: 25vh;
 }
 #selectedCd6{
-	max-width: 40vh;
-	max-height: 40vh;
+	outline: white;
+    -webkit-filter: drop-shadow(0px 0px 12px white);
+     filter: drop-shadow(0px 0px 12px white);
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vw;
 	height: 60vw;
 	background: purple;
@@ -332,8 +343,12 @@
 	pointer-events: none;
 	position: fixed;
 	width: 100vw;
-	height: 20vh;
-	background: yellow;
+	height: 100vh;
+	background: url('imgs/cd3decor.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+	background-position: right bottom;
 	left: 0;
     bottom: 0vh;
     opacity: 1;
@@ -465,7 +480,6 @@
 	#selectedCd1{
 		width: 75vh;
 		height: 75vh;
-		background: red;
 		z-index: -1;
 		position: fixed;
 		left: 20vw;
@@ -474,7 +488,6 @@
 	#selectedCd2{
 		width: 75vh;
 		height: 75vh;
-		background: orange;
 		z-index: -1;
 		position: fixed;
 		left: 20vw;
@@ -483,7 +496,6 @@
 	#selectedCd3{
 		width: 75vh;
 		height: 75vh;
-		background: yellow;
 		z-index: -1;
 		position: fixed;
 		left: 20vw;
@@ -794,7 +806,6 @@
 		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
-		background: yellow;
 		z-index: -1;
 		position: fixed;
 		left: 19vw;
