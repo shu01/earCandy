@@ -2,28 +2,28 @@
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-	background-position: right bottom;
+	background-position: center bottom;
 	padding: 0;
 	margin: 0;
 
 }
 .bgd{
-	background: url('bg.png') no-repeat;
+	background: url('imgs/bg.png') no-repeat;
 }
 .bg1{
-	background: url('cd1bg.png') no-repeat;
+	background: url('imgs/cd1bg.png') no-repeat;
 }
 .bg2{
-	background: url('bg.png') no-repeat;
+	background: url('imgs/cd2bg.png') no-repeat;
 }
 .bg3{
-	background: url('bg.png') no-repeat;
+	background: url('imgs/bg.png') no-repeat;
 }
 .bg4{
-	background: url('bg.png') no-repeat;
+	background: url('imgs/bg.png') no-repeat;
 }
 .bg5{
-	background: url('bg.png') no-repeat;
+	background: url('imgs/bg.png') no-repeat;
 }
 @font-face {
     font-family: '04b30';
@@ -40,7 +40,7 @@
 	left: 0;
     top: 0;
     background: yellow;
-    background: url('borderL.png') no-repeat;
+    background: url('imgs/borderL.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -53,7 +53,7 @@
 	left: 0;
     top: 0;
     background: yellow;
-     background: url('borderT.png') no-repeat;
+     background: url('imgs/borderT.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -64,7 +64,7 @@
 	width: 100vw;
 	height: 85vh;
 	display:block;
-	background: url('vmtop.png') no-repeat center;
+	background: url('imgs/vmtop.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -75,7 +75,7 @@
 	height: 8vh;
 	margin-top: 23vh;
 	margin-left: 5vw;
-   	background: url('shelf.png') no-repeat;
+   	background: url('imgs/shelf.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -87,7 +87,7 @@
 	height: 8vh;
 	margin-top: 32vh;
 	margin-left: 5vw;
-   	background: url('shelf.png') no-repeat;
+   	background: url('imgs/shelf.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -98,7 +98,7 @@
 #vmbot{
 	width: 100vw;
 	height: 7vh;
-	background: url('borderT.png') no-repeat;
+	background: url('imgs/borderT.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -112,7 +112,7 @@
 	right: 0vw;
     top: 0vh;
 	position: absolute;
-	background: url('vms.png') no-repeat;
+	background: url('imgs/vms.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -188,7 +188,7 @@
 	max-height: 40vw;
 	width: 35vw;
 	height: 35vw;
-	background: url('cd1.png') no-repeat center;
+	background: url('imgs/cd1.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -198,11 +198,14 @@
     top: 25vh;
 }
 #selectedCd2{
-	max-width: 40vh;
-	max-height: 40vh;
+	max-width: 40vw;
+	max-height: 40vw;
 	width: 60vh;
 	height: 60vh;
-	background: orange;
+	background: url('imgs/cd2.png') no-repeat center;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
 	z-index: -1;
 	position: fixed;
 	right: 50vw;
@@ -253,7 +256,7 @@
     top: 25vh;
 }
 #cd1{
-	background: url('cd1.png') no-repeat center;
+	background: url('imgs/cd1.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -261,7 +264,7 @@
     top: 15vh;
 }
 #cd2{
-	background: url('cd2.png') no-repeat center;
+	background: url('imgs/cd2.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -269,6 +272,9 @@
     top: 15vh;
 }
 #cd3{
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
     left: 60vw;
     top: 15vh;
 }
@@ -291,8 +297,8 @@
 	pointer-events: none;
 	position: fixed;
 	width: 100vw;
-	height: 90vh;
-	background: url('cd1decor.png') no-repeat;
+	height: 100vh;
+	background: url('imgs/cd1decor.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -305,8 +311,12 @@
 	pointer-events: none;
 	position: fixed;
 	width: 100vw;
-	height: 20vh;
-	background: orange;
+	height:100vh;
+	background: url('imgs/cd2decor.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+	background-position: right bottom;
 	left: 0;
     bottom: 0vh;
     opacity: 1;
@@ -625,7 +635,7 @@
 		margin-top: 49vw;
 		margin-left: 5vw;
     	background: blue;
-    	background: url('shelf.png') no-repeat;
+    	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
     	-o-background-size: cover;      /* Opera*/
@@ -636,7 +646,7 @@
 		height: 9vw;
 		margin-top: 50vw;
 		margin-left: 5vw;
-    	background: url('shelf.png') no-repeat;
+    	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
     	-o-background-size: cover;      /* Opera*/
@@ -648,7 +658,7 @@
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
-    	background: url('shelf.png') no-repeat;
+    	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
     	-o-background-size: cover;      /* Opera*/
@@ -660,7 +670,7 @@
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
-    	background: url('shelf.png') no-repeat;
+    	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
     	-o-background-size: cover;      /* Opera*/
@@ -672,7 +682,7 @@
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
-    	background: url('shelf.png') no-repeat;
+    	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
     	-o-background-size: cover;      /* Opera*/
@@ -684,7 +694,7 @@
 		margin-top: 51vw;
 		margin-left: 5vw;
     	background: blue;
-    	background: url('shelf.png') no-repeat;
+    	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
     	-o-background-size: cover;      /* Opera*/
@@ -767,7 +777,6 @@
 		max-height: 60vh;
 		width: 60vw;
 		height: 60vw;
-		background: orange;
 		z-index: -1;
 		position: fixed;
 		left: 19vw;

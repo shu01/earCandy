@@ -50,7 +50,7 @@ window.onload=function(){
 	document.getElementById("cd2").addEventListener("click", cd2);
 	function cd2() {
 		clearSelection();
-		cdSelected("cd2","selectedCd2","decor2");
+		cdSelected("cd2","selectedCd2","decor2","bg2");
 		scrollBot()
 	}
 
