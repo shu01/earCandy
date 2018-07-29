@@ -366,6 +366,7 @@
     opacity: 0;
 }
 .decor4{
+	pointer-events: none;
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
