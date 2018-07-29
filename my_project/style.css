@@ -184,8 +184,8 @@
 	outline: white;
     -webkit-filter: drop-shadow(0px 0px 12px white);
      filter: drop-shadow(0px 0px 12px white);
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vw;
 	height: 60vw;
 	background: url('imgs/cd1.png') no-repeat center;
@@ -194,15 +194,15 @@
     -o-background-size: cover;      /* Opera*/
 	z-index: -1;
 	position: fixed;
-	right: 50vw;
+	left: 10vw;
     top: 25vh;
 }
 #selectedCd2{
 	outline: white;
     -webkit-filter: drop-shadow(0px 0px 12px white);
      filter: drop-shadow(0px 0px 12px white);
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vw;
 	height: 60vw;
 	background: url('imgs/cd2.png') no-repeat center;
@@ -211,7 +211,7 @@
     -o-background-size: cover;      /* Opera*/
 	z-index: -1;
 	position: fixed;
-	right: 50vw;
+	left: 10vw;
     top: 25vh;
 }
 #selectedCd3{
@@ -222,52 +222,52 @@
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vw;
 	height: 60vw;
 	z-index: -1;
 	position: fixed;
-	right: 50vw;
+	left: 10vw;
     top: 25vh;
 }
 #selectedCd4{
 	outline: white;
-    -webkit-filter: drop-shadow(0px 0px 12px black);
-     filter: drop-shadow(0px 0px 12px black);
+    -webkit-filter: drop-shadow(0px 0px 12px white);
+     filter: drop-shadow(0px 0px 12px white);
      background: url('imgs/cd4.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vw;
 	height: 60vw;
 	z-index: -1;
 	position: fixed;
-	right: 50vw;
+	left: 10vw;
     top: 25vh;
 }
 #selectedCd5{
 	outline: white;
     -webkit-filter: drop-shadow(0px 0px 12px white);
      filter: drop-shadow(0px 0px 12px white);
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vw;
 	height: 60vw;
 	background: blue;
 	z-index: -1;
 	position: fixed;
-	right: 50vw;
+	left: 10vw;
     top: 25vh;
 }
 #selectedCd6{
 	outline: white;
     -webkit-filter: drop-shadow(0px 0px 12px white);
      filter: drop-shadow(0px 0px 12px white);
-	max-width: 40vw;
-	max-height: 40vw;
+	max-width: 60vh;
+	max-height: 60vh;
 	width: 60vw;
 	height: 60vw;
 	background: url('imgs/cd6.png') no-repeat center;
@@ -411,7 +411,6 @@
 		height: 10vh;
 		margin-top: 63vh;
 		margin-left: 0;
-	   	background: blue;
 	   	pointer-events: none
 	}
 	#shelf2{
@@ -419,7 +418,6 @@
 		height: 10vh;
 		margin-top: 66vh;
 		margin-left: 0;
-	   	background: blue;
 	   	pointer-events: none
 	}
 	#borderL{
@@ -525,7 +523,6 @@
 	#selectedCd4{
 		width: 75vh;
 		height: 75vh;
-		background: green;
 		z-index: -1;
 		position: fixed;
 		left: 20vw;
@@ -534,7 +531,6 @@
 	#selectedCd5{
 		width: 75vh;
 		height: 75vh;
-		background: blue;
 		z-index: -1;
 		position: fixed;
 		left: 20vw;
@@ -543,14 +539,13 @@
 	#selectedCd6{
 		width: 75vh;
 		height: 75vh;
-		background: purple;
 		z-index: -1;
 		position: fixed;
 		left: 20vw;
 	    top: 15vh;
 	}
 	.cdText{
-		width: 30vw; 
+		width: 20vw; 
 		height: 60vh;
 		z-index: -2;
 		position: fixed;
@@ -558,51 +553,50 @@
     	top: 25vh;
 	}
 	#cdTextVis{
-		background: blue;
+		background: red;
 		z-index: -2;
 		display: block;
-		left: 50vw;
+		left: 55vw;
 	}
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 800px){
+@media only screen and (max-width: 1000px) and (min-width: 800px){
 	#selectedCd1{
-		max-width: 50vw;
-		max-height: 50vw;
+		max-width: 30vw;
+		max-height: 30vw;
 	}
 	#selectedCd2{
-		max-width: 50vw;
-		max-height: 50vw;
+		max-width: 30vw;
+		max-height: 30vw;
 	}
 	#selectedCd3{
-		max-width: 50vw;
-		max-height: 50vw;
+		max-width: 30vw;
+		max-height: 30vw;
 	}
 	#selectedCd4{
-		max-width: 50vw;
-		max-height: 50vw;
+		max-width: 30vw;
+		max-height: 30vw;
 	}
 	#selectedCd5{
-		max-width: 50vw;
-		max-height: 50vw;
+		max-width: 30vw;
+		max-height: 30vw;
 	}
 	#selectedCd6{
-		max-width: 50vw;
-		max-height: 50vw;
+		max-width: 30vw;
+		max-height: 30vw;
 	}
 	.cdText{
-		width: 60vw; 
+		width: 40vw; 
 		height: 20vh;
 		z-index: -2;
 		position: fixed;
 		left: 160vw;
-    	top: 80vw;
 	}
 	#cdTextVis{
-		background: blue;
+		background: red;
 		z-index: -2;
 		display: block;
-		left: 19vw;
+		left: 45vw;
 	}
 	#spotify{
 		position: absolute;
@@ -619,14 +613,8 @@
 		height: 20vh;
 		z-index: -2;
 		position: fixed;
-		left: 160vw;
-    	top: 55vh;
-	}
-	#cdTextVis{
-		background: red;
-		z-index: -2;
-		display: block;
-		left: 19vw;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#spotify{
 		position: absolute;
@@ -652,11 +640,10 @@
 	#cdTextVis{
 		background: pink;
 		z-index: -2;
-		display: block;
-		left: 19vw;
-		height: 20vh;
-		width: 60vw;
-		top: 53vh;
+		display: fixed;
+		margin-top: 7vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	#borderL{
@@ -674,7 +661,6 @@
 		height: 9vw;
 		margin-top: 49vw;
 		margin-left: 5vw;
-    	background: blue;
     	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
@@ -697,7 +683,6 @@
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
-    	background: blue;
     	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
@@ -709,7 +694,6 @@
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
-    	background: blue;
     	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
@@ -721,7 +705,6 @@
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
-    	background: blue;
     	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
@@ -733,7 +716,6 @@
 		height: 9vw;
 		margin-top: 51vw;
 		margin-left: 5vw;
-    	background: blue;
     	background: url('imgs/shelf.png') no-repeat;
 		-webkit-background-size: cover; /* For WebKit*/
     	-moz-background-size: cover;    /* Mozilla*/
@@ -803,67 +785,66 @@
 		z-index: -2;
 	}
 	#selectedCd1{
-		max-width: 60vh;
-		max-height: 60vh;
+		max-width: 35vh;
+		max-height: 35vh;
 		width: 60vw;
 		height: 60vw;
 		z-index: -1;
 		position: fixed;
-		left: 19vw;
-    	top: 15vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#selectedCd2{
-		max-width: 60vh;
-		max-height: 60vh;
+		max-width: 35vh;
+		max-height: 35vh;
 		width: 60vw;
 		height: 60vw;
 		z-index: -1;
 		position: fixed;
-		left: 19vw;
-	    top: 15vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#selectedCd3{
-		max-width: 60vh;
-		max-height: 60vh;
+		max-width:35vh;
+		max-height: 35vh;
 		width: 60vw;
 		height: 60vw;
 		z-index: -1;
 		position: fixed;
-		left: 19vw;
-	    top: 15vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#selectedCd4{
-		max-width: 60vh;
-		max-height: 60vh;
+		max-width: 35vh;
+		max-height: 35vh;
 		width: 60vw;
 		height: 60vw;
 		background: green;
 		z-index: -1;
 		position: fixed;
-		left: 19vw;
-	    top: 15vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#selectedCd5{
-		max-width: 60vh;
-		max-height: 60vh;
+		max-width: 35vh;
+		max-height: 35vh;
 		width: 60vw;
 		height: 60vw;
 		background: blue;
 		z-index: -1;
 		position: fixed;
-		left: 19vw;
-	    top: 15vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#selectedCd6{
-		max-width: 60vh;
-		max-height: 60vh;
+		max-width: 35vh;
+		max-height: 35vh;
 		width: 60vw;
 		height: 60vw;
-		background: purple;
 		z-index: -1;
 		position: fixed;
-		left: 19vw;
-	    top: 15vh;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	#ejectButton{
 		width: 20vw;
