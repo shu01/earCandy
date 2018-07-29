@@ -63,7 +63,7 @@ window.onload=function(){
 	document.getElementById("cd4").addEventListener("click", cd4);
 	function cd4() {
 		clearSelection();
-		cdSelected("cd4","selectedCd4","decor4");
+		cdSelected("cd4","selectedCd4","decor4","bg4");
 		scrollBot()	
 	}
 
@@ -77,7 +77,7 @@ window.onload=function(){
 	document.getElementById("cd6").addEventListener("click", cd6);
 	function cd6() {
 		clearSelection();
-		cdSelected("cd6","selectedCd6","decor6");
+		cdSelected("cd6","selectedCd6","decor6","bg6");
 		scrollBot()
 	}
 
