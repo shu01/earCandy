@@ -526,7 +526,6 @@
 		height: 175vh;
 		left: 0;
     	top: 0;
-    	background: yellow;
 	}
 
     #vmtop{
@@ -536,8 +535,7 @@
 	}
 	#vmbot{
 		width: 100vw;
-		height: 7vh;
-		background: blue;
+		height: 15vh;
 		display:block;
 	}
 
@@ -547,28 +545,63 @@
 		right: 0vw;
 	    top: 0vh;
 		position: absolute;
-		background: black;
 	}
 
 	.cd{
 		width: 60vh;
 		height: 60vh;
-		background: yellow;
 		position: absolute;
 		overflow: hidden;
 	}
 
+	#label1{
+		width: 60vh;
+		height: 45vh;
+    	left: 5vw;
+    	bottom: 15vh;
+	}
+	#label2{
+		width: 60vh;
+		height: 45vh;
+    	left: 32vw;
+    	bottom: 15vh;
+	}
+	#label3{
+		width: 60vh;
+		height: 45vh;
+    	left: 59vw;
+    	bottom: 15vh;
+	}
+	#label4{
+		width: 60vh;
+		height: 45vh;
+    	left: 5vw;
+    	bottom: -60vh;
+	}
+	#label5{
+		width: 60vh;
+		height: 45vh;
+    	left: 32vw;
+    	bottom: -60vh;
+	}
+	#label6{
+		width: 60vh;
+		height: 45vh;
+    	left: 59vw;
+    	bottom: -60vh;
+	}
+
 	#cd1{
     	left: 5vw;
-    	bottom: 20vh;
+    	bottom: 25vh;
 	}
 	#cd2{
     	left: 32vw;
-    	bottom: 20vh;
+    	bottom: 25vh;
 	}
 	#cd3{
     	left: 59vw;
-    	bottom: 20vh;
+    	bottom: 25vh;
 	}
 	#cd4{
     	left: 5vw;
@@ -736,6 +769,41 @@
 }
 
 @media only screen and (max-width: 550px) {
+	#label1{
+    	left: 10vw;
+    	top: 47vw;
+	}
+	#label2{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 105vw;
+	}
+	#label3{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 166vw;
+	}
+	#label4{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 224vw;
+	}
+	#label5{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 285vw;
+	}
+	#label6{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 345vw;
+	}
+
 	.cd{
 		max-height:  none;
 		max-width: none;
@@ -830,7 +898,6 @@
 	#vmbot{
 		width: 100vw;
 		height: 7vh;
-		background: blue;
 		display:block;
 	}
 
@@ -843,36 +910,77 @@
 	}
 
 	.cd{
-		width: 50vw;
-		height: 50vw;
-		background: yellow;
+		width: 40vw;
+		height: 40vw;
 		position: absolute;
 		overflow: hidden;
 	}
 
+	.label{
+		max-height: none;
+		max-width: none;
+		width: 40vw;
+		height: 30vw;
+	}
+
+	#label1{
+    	left: 10vw;
+    	top: 47vw;
+	}
+	#label2{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 105vw;
+	}
+	#label3{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 166vw;
+	}
+	#label4{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 224vw;
+	}
+	#label5{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 285vw;
+	}
+	#label6{
+		width: 40vw;
+		height: 30vw;
+    	left: 10vw;
+    	top: 345vw;
+	}
+
 	#cd1{
     	left: 10vw;
-    	top: 15vw;
+    	top: 25vw;
 	}
 	#cd2{
     	left: 10vw;
-    	top: 75vw;
+    	top: 84vw;
 	}
 	#cd3{
     	left: 10vw;
-    	top: 135vw;
+    	top: 144vw;
 	}
 	#cd4{
     	left: 10vw;
-    	top: 195vw;
+    	top: 205vw;
 	}
 	#cd5{
     	left: 10vw;
-    	top: 255vw;
+    	top: 263vw;
 	}
 	#cd6{
     	left: 10vw;
-    	top: 315vw;
+    	top: 325vw;
 	}
 
 	#ejectButton{
