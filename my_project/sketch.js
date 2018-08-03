@@ -70,7 +70,7 @@ window.onload=function(){
 	document.getElementById("cd5").addEventListener("click", cd5);
 	function cd5() {
 		clearSelection();
-		cdSelected("cd5","selectedCd5","decor5");
+		cdSelected("cd5","selectedCd5","decor5","bg5");
 		scrollBot()
 	}
 
