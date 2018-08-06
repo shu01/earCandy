@@ -152,6 +152,13 @@
 	left: 80vw;
     top: 4vh;
 }
+#ejB{
+	display:block;
+	vertical-align: middle;
+    margin:auto;
+	max-width:100%;
+    max-height:100%;
+}
 #cdDisplay{
 	width: 100vw;
 	height: 90vh;
@@ -576,9 +583,43 @@
     bottom: 0vh;
     opacity: 0;
 }
+@media only screen and (max-height: 630px) and (min-width: 850px){
+.decor1{
+display: none;
+}
+.decor2{
+	display: none;
+}
+.decor3{
+	display: none;
+}
+.decor4{
+	display: none;
+}
+.decor5{
+	display: none;
+}
+.decor6{
+	display: none;
+}
 
-
+}
 @media only screen and (max-height: 400px) and (min-width: 850px){
+
+	.cdText{
+	font-size: 18px;
+	position: fixed;
+	height: 30vh;
+	position: fixed;
+	height: 60vh
+	z-index: -2;
+	left: 50vw;
+	top: 35vh;
+	border-radius: 25px:
+	width: 200px; 
+	z-index: -2;
+	}
+
 	#instructions{
 		z-index: 12;
 		position: fixed;
@@ -824,13 +865,16 @@
 		max-width: none;
 	}
 
-	#cdTextVis{
-		background: pink;
-		z-index: -2;
-		display: fixed;
-		left: 50%;
-		transform: translateX(-50%);
-		top:36vh;
+	.cdText{
+	font-size: 16px;
+	position: fixed;
+	height: 30vh;
+	z-index: -2;
+	left: 50vw;
+	top: 35vh;
+	width: 200px; 
+	transform: translateX(-50%);
+	top:65vh;
 	}
 
 	#borderL{
