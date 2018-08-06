@@ -241,29 +241,87 @@
 }
 
 #spotify{
-	position: relative;
-	width: 150px; 
-	height: 50px;
-	left: 0vw;
- 	bottom: 0;
-	}
-
-
-.cdText{
-	width: 40vh; 
-	z-index: -2;
 	position: fixed;
-	left: 160vw;
-    top: 25vh;
-}
-
-#cdTextVis{
+	height: 20px;
+	z-index: -2;
+	left: 50vw;
+	top: 35vh;
+	position: fixed;
 	height: 30vh
 	background: blue;
 	z-index: -2;
-	left: 35vw;
-	top: 5vh;
+	left: 50vw;
+	top: 50vh;
+	}
+.cdText{
+	font-size: 18px;
+	position: fixed;
+	height: 30vh;
+	position: fixed;
+	height: 30vh
+	z-index: -2;
+	left: 50vw;
+	top: 35vh;
+	border-radius: 25px:
+	width: 200px; 
+	z-index: -2;
 }
+#cdText1{
+	color: white;
+	text-shadow: rgb(08,25,43,1) 0 0 10px;
+}
+
+#cdText2{
+	width: 200px; 
+	z-index: -2;
+	color: white;
+	text-shadow: rgb(8,37,67) 0 0 15px;
+}
+
+#cdText3{
+	width: 200px; 
+	z-index: -2;
+	color: white;
+	text-shadow: rgb(196,85,228) 0 0 10px;
+}
+
+#cdText4{
+	text-shadow:
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+	width: 200px; 
+	z-index: -2;
+	color: rgb(135,52,64);
+	text-shadow: white 0 0 10px;
+}
+
+#cdText5{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	width: 200px; 
+	z-index: -2;
+	color: rgb(70,0,62);
+	text-shadow: white 0 0 10px;
+}
+
+#cdText6{
+	width: 200px; 
+	z-index: -2;
+	color: black;
+	color: white;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black; 
+	text-shadow: black 0 0 10px;
+}
+
 .cd{
 	max-height:  20vw;
 	max-width: 20vw;
@@ -295,11 +353,11 @@
     -o-background-size: cover;      /* Opera*/
 	max-width: 50vh;
 	max-height: 50vh;
-	width: 50vh;
-	height: 50vh;
+	width: 40vw;
+	height: 40vw;
 	z-index: -1;
 	position: fixed;
-	right: 60vw;
+	right: 55vw;
     top: 27vh;
 }
 #selectedCd2{
@@ -312,11 +370,11 @@
     -o-background-size: cover;      /* Opera*/
 	max-width: 50vh;
 	max-height: 50vh;
-	width: 50vh;
-	height: 50vh;
+	width: 40vw;
+	height: 40vw;
 	z-index: -1;
 	position: fixed;
-	right: 60vw;
+	right: 55vw;
     top: 27vh;
 }
 #selectedCd3{
@@ -329,29 +387,29 @@
     -o-background-size: cover;      /* Opera*/
 	max-width: 50vh;
 	max-height: 50vh;
-	width: 50vh;
-	height: 50vh;
+	width: 40vw;
+	height: 40vw;
 	z-index: -1;
 	position: fixed;
-	right: 60vw;
+	right: 55vw;
     top: 27vh;
 }
 #selectedCd4{
 	outline: white;
     -webkit-filter: drop-shadow(0px 0px 12px white);
      filter: drop-shadow(0px 0px 12px white);
-     background: url('imgs/cd4.png') no-repeat center;
+	background: url('imgs/cd4.png') no-repeat center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
 	max-width: 50vh;
 	max-height: 50vh;
-	width: 50vw;
-	height: 50vw;
+	width: 40vw;
+	height: 40vw;
 	z-index: -1;
 	position: fixed;
-	left: 60vw;
-    top: 25vh;
+	right: 55vw;
+    top: 27vh;
 }
 #selectedCd5{
 	outline: white;
@@ -363,11 +421,11 @@
     -o-background-size: cover;      /* Opera*/
 	max-width: 50vh;
 	max-height: 50vh;
-	width: 50vh;
-	height: 50vh;
+	width: 40vw;
+	height: 40vw;
 	z-index: -1;
 	position: fixed;
-	right: 60vw;
+	right: 55vw;
     top: 27vh;
 }
 #selectedCd6{
@@ -380,11 +438,11 @@
     -o-background-size: cover;      /* Opera*/
 	max-width: 50vh;
 	max-height: 50vh;
-	width: 50vh;
-	height: 50vh;
+	width: 40vw;
+	height: 40vw;
 	z-index: -1;
 	position: fixed;
-	right: 60vw;
+	right: 55vw;
     top: 27vh;
 }
 #cd1{
