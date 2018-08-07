@@ -123,27 +123,27 @@
 #vmbot{
 	width: 100vw;
 	height: 7vh;
-	background: url('imgs/borderT.png') no-repeat;
+	background: url('imgs/vmbot.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-    background-position: right top;
+    background-position: center bottom;
 	display:block;
 }
 #vmbot2{
 	width: 100vw;
 	height: 7vh;
 	position: relative;
-	background: url('imgs/borderT.png') no-repeat;
+	background: url('imgs/vmbot2.png') no-repeat;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-    background-position: right top;
+    background-position: center;
     z-index: -4;
 }
 #vmside{
 	width: 15vw;
-	height: 90vh;
+	height: 85vh;
 	right: 0vw;
     top: 0vh;
 	position: absolute;
@@ -153,14 +153,28 @@
     -o-background-size: cover;      /* Opera*/
     background-position: left top;
 }
+#vmsideDecor{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+	margin-top: 10vh;
+	width: auto;
+	height: 80%;
+}
 
 #ejectButton{
 	width: 15vw;
 	height: 7vh;
-	background: yellow;
+	background: url('imgs/ejBbase.png') no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+	background-position: left top;
 	position: relative;
 	left: 80vw;
     top: 4vh;
+    box-shadow: 3px 3px 10px black;
 }
 #ejB{
 	display:block;
@@ -754,7 +768,6 @@ display: none;
 	#ejectButton{
 		width: 15vw;
 		height: 10vh;
-		background: yellow;
 		position: relative;
 		left: 80vw;
     	top: 5vh;
@@ -982,14 +995,32 @@ display: none;
 		width: 100vw;
 		height: 7vh;
 		display:block;
+		background: url('imgs/vmbotmob.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+		background-position: center bottom;
+	}
+
+	#vmbot2{
+		background: url('imgs/vmbot2mob.png') no-repeat;
+		-webkit-background-size: cover; /* For WebKit*/
+    	-moz-background-size: cover;    /* Mozilla*/
+    	-o-background-size: cover;      /* Opera*/
+		background-position: center top;
 	}
 
 	#vmside{
 		width: 30vw;
-		height: 380vw;
+		height: 375vw;
 		right: 0vw;
 	    top: 0vh;
 		position: absolute;
+	}
+	#vmsideDecor{
+	margin-top: 40vh;
+	width: 30vw;
+	height: auto;
 	}
 
 	.cd{
@@ -1008,69 +1039,68 @@ display: none;
 	}
 
 	#label1{
-    	left: 10vw;
+    	left: 15vw;
     	top: 47vw;
 	}
 	#label2{
 		width: 40vw;
 		height: 30vw;
-    	left: 10vw;
+    	left: 15vw;
     	top: 105vw;
 	}
 	#label3{
 		width: 40vw;
 		height: 30vw;
-    	left: 10vw;
+    	left: 15vw;
     	top: 166vw;
 	}
 	#label4{
 		width: 40vw;
 		height: 30vw;
-    	left: 10vw;
+    	left: 15vw;
     	top: 224vw;
 	}
 	#label5{
 		width: 40vw;
 		height: 30vw;
-    	left: 10vw;
+    	left: 15vw;
     	top: 285vw;
 	}
 	#label6{
 		width: 40vw;
 		height: 30vw;
-    	left: 10vw;
+    	left: 15vw;
     	top: 345vw;
 	}
 
 	#cd1{
-    	left: 10vw;
+    	left: 15vw;
     	top: 25vw;
 	}
 	#cd2{
-    	left: 10vw;
+    	left: 15vw;
     	top: 84vw;
 	}
 	#cd3{
-    	left: 10vw;
+    	left: 15vw;
     	top: 144vw;
 	}
 	#cd4{
-    	left: 10vw;
+    	left: 15vw;
     	top: 205vw;
 	}
 	#cd5{
-    	left: 10vw;
+    	left: 15vw;
     	top: 263vw;
 	}
 	#cd6{
-    	left: 10vw;
+    	left: 15vw;
     	top: 325vw;
 	}
 
 	#ejectButton{
 		width: 15vw;
 		height: 10vh;
-		background: yellow;
 		position: relative;
 		left: 80vw;
     	top: 5vh;
@@ -1144,7 +1174,6 @@ display: none;
 		width: 125px;
 		left: 60vw;
 		height: 7vh;
-		background: yellow;
 		position: relative;
     	top: 4vh;
 	}
