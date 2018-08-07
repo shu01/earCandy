@@ -5,7 +5,9 @@
 	background-position: center bottom;
 	padding: 0;
 	margin: 0;
-
+}
+.hidden{
+	display: hidden;
 }
 .bgd{
 	background: url('imgs/bg.png') no-repeat;
@@ -29,22 +31,29 @@
 	background: url('imgs/cd6bg.png') no-repeat;
 }
 @font-face {
-    font-family: '04b30';
-    src: url('04b_30__-webfont.woff2') format('woff2'),
-         url('04b_30__-webfont.woff') format('woff');
+    font-family: '8-bit_pusabregular';
+    src: url('8-bit_pusab-webfont.woff2') format('woff2'),
+         url('8-bit_pusab-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 #instructions{
+	font-family: '8-bit_pusabregular';
+	border-radius: 10px;
+	font-size: 16px;
 	z-index: 12;
 	position: absolute;
-	background: yellow;
-	width: 45vw;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 7vh;
+	background: linear-gradient(yellow, #FFD700);
+	width: 70vw;
 	height: 7vh;
 	left: 41vw;
-		transform: translateX(-50%);
-	top: 43vh;
+	transform: translateX(-50%);
+	top: 44vh;
+	overflow: hidden;
 
 }
 
@@ -76,6 +85,7 @@
 }
 
 #vmtop{
+	z-index: -4;
 	width: 100vw;
 	height: 85vh;
 	display:block;
@@ -162,8 +172,31 @@
 #cdDisplay{
 	width: 100vw;
 	height: 90vh;
-	z-index: -2;
 }
+.spotify{
+	opacity: 0;
+	border: 1px solid white;
+	border-radius: 200px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    z-index: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	position: fixed;
+	left: 50vw;
+	bottom:40vh;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.spotify:hover{
+	border: 1px solid #4CAF50;
+    background-color: white; /* Green */
+    color: #4CAF50;
+}
+
+
 .label{
 	pointer-events: none;
 	max-height:  15vw;
@@ -247,47 +280,34 @@
     bottom: 18vh;
 }
 
-#spotify{
-	position: fixed;
-	height: 20px;
-	z-index: -2;
-	left: 50vw;
-	top: 35vh;
-	position: fixed;
-	height: 30vh
-	background: blue;
-	z-index: -2;
-	left: 50vw;
-	top: 50vh;
-	}
 .cdText{
+	pointer-events: none;
 	font-size: 18px;
 	position: fixed;
-	height: 30vh;
+	height: 15vh;
 	position: fixed;
 	height: 30vh
-	z-index: -2;
+	z-index: -6;
 	left: 50vw;
 	top: 35vh;
-	border-radius: 25px:
 	width: 200px; 
-	z-index: -2;
 }
 #cdText1{
+	z-index: -8;
 	color: white;
 	text-shadow: rgb(08,25,43,1) 0 0 10px;
 }
 
 #cdText2{
 	width: 200px; 
-	z-index: -2;
+	z-index: -8;
 	color: white;
 	text-shadow: rgb(8,37,67) 0 0 15px;
 }
 
 #cdText3{
 	width: 200px; 
-	z-index: -2;
+	z-index: -8;
 	color: white;
 	text-shadow: rgb(196,85,228) 0 0 10px;
 }
@@ -299,7 +319,7 @@
     -1px 1px 0 #000,
     1px 1px 0 #000; 
 	width: 200px; 
-	z-index: -2;
+	z-index: -8;
 	color: rgb(135,52,64);
 	text-shadow: white 0 0 10px;
 }
@@ -311,14 +331,14 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 	width: 200px; 
-	z-index: -2;
+	z-index: -8;
 	color: rgb(70,0,62);
 	text-shadow: white 0 0 10px;
 }
 
 #cdText6{
 	width: 200px; 
-	z-index: -2;
+	z-index: -8;
 	color: black;
 	color: white;
     text-shadow:
@@ -606,6 +626,7 @@ display: none;
 }
 @media only screen and (max-height: 400px) and (min-width: 850px){
 
+
 	.cdText{
 	font-size: 18px;
 	position: fixed;
@@ -618,17 +639,6 @@ display: none;
 	border-radius: 25px:
 	width: 200px; 
 	z-index: -2;
-	}
-
-	#instructions{
-		z-index: 12;
-		position: fixed;
-		background: green;
-		width: 20vw;
-		height: 40vh;
-		left: 88vw;
-		top: 45vh;
-
 	}
 
 	#shelf1{
@@ -810,19 +820,33 @@ display: none;
 		left: 160vw;
     	top: 25vh;
 	}
+	#instructions{
+		font-size: 10px;
+		z-index: 12;
+		position: fixed;
+		width: 10vw;
+		height: 30vh;
+		left: 86vw;
+		top: 45vh;
+		padding: 10px;
+	}
 }
 
 
 @media only screen and (max-width: 550px) {
-
-	#instructions{
+		#instructions{
+		line-height: 33px;
+		font-size: 14px;
+		justify-content: center;
+    	margin: 5px;
 		z-index: 12;
 		position: fixed;
-		background: green;
 		width: 30vw;
-		height: 30vh;
+		height: auto;
 		left: 75vw;
 		top: 45vh;
+		padding-left: 3px;
+
 	}
 
 	#label1{
@@ -1123,6 +1147,16 @@ display: none;
 		background: yellow;
 		position: relative;
     	top: 4vh;
+	}
+
+	.spotify{
+		display:inline-block;
+		position: fixed;
+		left: 50vw;
+		transform: translateX(-50%);
+		top:74vh;
+		display:table;
+   		margin: 0 auto;
 	}
 }
 

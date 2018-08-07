@@ -1,7 +1,12 @@
 window.onload=function(){
 	document.getElementById("body").setAttribute("class", "bgd");
+
+
 	function clearSelection(){
 		document.getElementById("body").setAttribute("class", "bgd");
+
+		$("#instructions").css("opacity",1);
+
 		list = document.getElementsByClassName("selected");
 		for (index = 0; index < list.length; ++index) {
     		list[index].classList.remove("selected");
@@ -43,18 +48,26 @@ window.onload=function(){
     		tlist[index].setAttribute("id", textNum);
     		tlist[index].innerHTML = text;
 		}
+		$("#instructions").css("opacity",0);
+
 
 		slist = document.getElementsByClassName("spotify");
 		for (index = 0; index < slist.length; ++index) {
     		slist[index].id = "";
     	}
-
-
        	document.getElementById("decor").setAttribute("class",cdDecorNum);
        	$(window).on("scroll", function() {
   		$("." + cdDecorNum).css("opacity", (window.innerHeight + ($(window).scrollTop()* 100)) / ($(document).height()*40));
 		});
 	}
+
+	$(window).scroll(function() {
+   		if($(window).scrollTop() + $(window).height() > $(document).height() -120) {
+			$(".spotify").css("opacity", 1);
+		}else{
+			$(".spotify").css("opacity", 0);
+		}
+	});
 
 	// cd selection 
 	document.getElementById("cd1").addEventListener("click", cd1);
@@ -67,7 +80,7 @@ window.onload=function(){
 	document.getElementById("cd2").addEventListener("click", cd2);
 	function cd2() {
 		clearSelection();
-		cdSelected("cd2","selectedCd2","decor2","bg2","Humidity will make it feel like it's close to 100 degrees! Stay hydrated!","cdText2");
+		cdSelected("cd2","selectedCd2","decor2","bg2","Humidity will make it feel like it's 100 degrees!","cdText2");
 		scrollBot()
 	}
 
@@ -98,7 +111,9 @@ window.onload=function(){
 		cdSelected("cd6","selectedCd6","decor6","bg6","why did you do it?", "cdText6");
 		scrollBot()
 	}
-
+	$( ".spotify" ).click(function() {
+  	alert( "Handler for .click() called." );
+	});
 	// eject button
 
 	document.getElementById("ejectButton").addEventListener("click", eB);
@@ -114,3 +129,5 @@ window.onload=function(){
 		scrolled();
 	}
 }
+
+
