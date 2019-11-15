@@ -1,3 +1,4 @@
+
 $(window).scroll(function () {
   //set scroll position in session storage
   sessionStorage.scrollPos = $(window).scrollTop();
@@ -148,5 +149,4 @@ window.onload=function(){
 		scrolled();
 	}
 }
-
 
