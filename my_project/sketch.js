@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 $(window).scroll(function () {
   set scroll position in session storage
@@ -10,13 +11,10 @@ var init = function () {
 window.onload = init;
 
 
+=======
+>>>>>>> parent of 909c87d... update
 window.onload=function(){
-	document.getElementById("loading").style.display = "none";
 	document.getElementById("body").setAttribute("class", "bgd");
-	 $(window).bind("mousewheel", function() {
-    $("html, body").stop();
-    });
-
 
 
 	function clearSelection(){
