@@ -1,17 +1,17 @@
 
 $(window).scroll(function () {
-  //set scroll position in session storage
+  set scroll position in session storage
   sessionStorage.scrollPos = $(window).scrollTop();
 });
 var init = function () {
-   //return scroll position in session storage
+   return scroll position in session storage
    $(window).scrollTop(sessionStorage.scrollPos || 0)
 };
 window.onload = init;
 
 
 window.onload=function(){
-	//document.getElementById("loading").style.display = "none";
+	document.getElementById("loading").style.display = "none";
 	document.getElementById("body").setAttribute("class", "bgd");
 	 $(window).bind("mousewheel", function() {
     $("html, body").stop();
